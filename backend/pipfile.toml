@@ -1,0 +1,19 @@
+# /mnt/f/chatbot/backend/pipfile
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+requests = "*"
+transformers = "*"
+torch = "*"
+openai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
