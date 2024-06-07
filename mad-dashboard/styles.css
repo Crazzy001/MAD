@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* /mnt/f/mad-dashboard/styles.css */
 @tailwind base;
 @tailwind components;
@@ -35,4 +36,43 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+=======
+/* /mnt/f/mad-dashboard/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+>>>>>>> origin/main
   

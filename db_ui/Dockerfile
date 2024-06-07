@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # /mnt/f/chatbot/db_ui/Dockerfile
 
 FROM python:3.12-slim
@@ -10,3 +11,17 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8300"]
+=======
+# /mnt/f/chatbot/db_ui/Dockerfile
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8300"]
+>>>>>>> origin/main

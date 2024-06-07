@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fastapi
 uvicorn[standard]
 transformers
@@ -5,3 +6,12 @@ torch
 openai
 watchdog
 llama_module  # Wenn dies ein internes Modul ist, sicherstellen, dass es richtig importiert wird
+=======
+fastapi
+uvicorn[standard]
+transformers
+torch
+openai
+watchdog
+llama_module  # Wenn dies ein internes Modul ist, sicherstellen, dass es richtig importiert wird
+>>>>>>> origin/main
