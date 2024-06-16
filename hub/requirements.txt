@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-fastapi
-uvicorn[standard]
-requests
-=======
-fastapi
-uvicorn[standard]
-requests
->>>>>>> origin/main
